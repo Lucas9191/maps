@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Document</title>
+  
+
+  </style>
+</head>
+<body>
+  <div id="area_display"></div> <!-- Aquí se mostrará el área -->
+  <input type="text" 
+    id="place_input" 
+    placeholder="Ingrese una ubicacion .."
+    
+  />
+
+<div id="map"> </div>
+
+
+<script async
+src="https://maps.googleapis.com/maps/api/js?key=(apikey)=places,drawing&region=GB&callback=initMap">
+</script> 
+
+<script src="main.js"></script>
+
+<button id="add_lote_button">Agregar Lote</button>
+<button onclick="removePolygon()">Eliminar Lote</button>
+<button onclick="updatePolygon()">Actualizar Lote</button>
+
+
+</body>
+</html>
+

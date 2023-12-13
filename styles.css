@@ -1,0 +1,61 @@
+ 
+  #map {
+    height: 80%;
+  }
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Incluye el padding y borde en el ancho total */
+}
+
+input:focus {
+    outline: none; /* Elimina el contorno al hacer foco */
+    border-color: #2e86de; /* Cambia el color del borde al hacer foco */
+}
+
+ /* Estilo para el contenedor area_display */
+   #area_display {
+  background-color: #f0f8ff; /* Color azul claro */
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #a9a9a9;
+  border-radius: 8px;
+  margin: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  text-align: center; /* Centrar el contenido */
+   }
+
+  button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add_lote_button {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+}
+
+button {
+    background-color: #f44336; /* Color rojo */
+    color: white;
+}
+
+button:last-of-type {
+    background-color: #008CBA; /* Color azul */
+    color: white;
+}
+  
