@@ -1,5 +1,5 @@
 # maps
 My public profile
-Un mapa interactivo donde podemos buscar cualquier zona en el mundo utilizando una api key de google.
-The api key is disable por ahora..
-Ante cualquier duda contactarse a lucasingro297@gmail.com
+An interactive map where we can search for any area in the world using a Google API key.
+The api key is disable for now..
+If you have any questions, contact lucasingro297@gmail.com
